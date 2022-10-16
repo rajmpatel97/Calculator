@@ -16,6 +16,14 @@ public class ScannerInput {
 	public double getNumber1() {
 		return number1;
 	}
+	public Scanner getSc() {
+		return sc;
+	}
+
+	public void setSc(Scanner sc) {
+		this.sc = sc;
+	}
+
 	public double getNumber2() {
 		return number2;
 	}
@@ -39,6 +47,7 @@ public class ScannerInput {
 		this.choice = sc.nextInt();
 		return choice;
 	}
+
 
 	
 	
